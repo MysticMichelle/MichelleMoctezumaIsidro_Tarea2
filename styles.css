@@ -225,6 +225,7 @@ button {
     border: none;
     /* ERROR 5: El botón primario no tiene profundidad ni efecto de brillo
        PISTA: Falta la propiedad que agrega sombras al elemento */
+       box-shadow: var(--shadow-xl), 0 0 15px rgba(79, 175, 219, 0.4);
 }
 
 .btn--primary:hover {
@@ -284,6 +285,7 @@ button {
        PISTA: Falta una propiedad de flexbox que alinea items en el eje transversal */
     justify-content: space-between;
     height: 100%;
+    align-items: center;
 }
 
 .nav__logo {
