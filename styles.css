@@ -162,7 +162,7 @@ button {
     max-width: 1200px;
     /* ERROR 3: El contenido no está centrado en la página
        PISTA: Falta una propiedad que centra elementos de bloque horizontalmente */
-    padding: 0 var(--spacing-lg);
+    padding: 1rem var(--spacing-lg);
 }
 
 .section {
@@ -210,6 +210,7 @@ button {
     font-size: var(--font-size-base);
     font-weight: 600;
     border-radius: var(--border-radius-lg);
+    transition: all var(--transition-base);
     /* ERROR 4 (AVANZADO): Los botones cambian de estado de forma abrupta sin suavidad
        SOLUCIÓN: Falta la propiedad transition para animar los cambios de estado
        Agregar: transition: all var(--transition-base);
