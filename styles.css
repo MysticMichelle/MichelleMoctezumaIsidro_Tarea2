@@ -451,8 +451,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* ERROR 9: El blob en el hero no tiene la animación de forma dinámica
-       PISTA: Falta la propiedad animation que referencia a blob-animation */
+    animation: blob-animation 6s infinite;
     position: relative;
 }
 
@@ -551,6 +550,7 @@ button {
 
 .interests__grid {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     /* ERROR 10: Las cards de intereses no se muestran en 3 columnas, están apiladas
        PISTA: Falta la propiedad de CSS Grid que define las columnas */
     gap: var(--spacing-xl);
