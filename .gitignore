@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+portafolio/node_modules
+portafolio/.pnp
+portafolio/.pnp.*
+portafolio/.yarn/*
+!portafolio/.yarn/patches
+!portafolio/.yarn/plugins
+!portafolio/.yarn/releases
+!portafolio/.yarn/versions
+
+# testing
+portafolio/coverage
+
+# next.js
+portafolio/.next/
+portafolio/out/
+
+# production
+portafolio/build
+
+# misc
+portafolio/.DS_Store
+portafolio/*.pem
+
+# debug
+portafolio/npm-debug.log*
+portafolio/yarn-debug.log*
+portafolio/yarn-error.log*
+portafolio/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+portafolio/.env*
+
+# vercel
+portafolio/.vercel
+
+# typescript
+portafolio/*.tsbuildinfo
+portafolio/next-env.d.ts
